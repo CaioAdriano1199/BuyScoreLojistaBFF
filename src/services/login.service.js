@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // URL da sua API real
-const API_URL = "Aqui vai a URL da API"; // coloque a URL real da sua API
+const API_URL = "http://localhost:8081/auth/login"; // coloque a URL real da sua API
 
 export const loginService = async (email, senha) => {
   try {
